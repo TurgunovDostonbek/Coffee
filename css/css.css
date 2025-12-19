@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.header {
+  background-image: url("../img/Hero\ area\ image\ \(2\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 730px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar__links {
+  display: flex;
+  justify-items: center;
+  gap: 25px;
+}
+.navbar__links--link {
+  text-decoration: none;
+  color: #4c4c4c;
+}
+
+.navbar__links--link:hover {
+  color: #ff4b32;
+}
+
+.navbar__links > i:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.coffe__left {
+  margin-top: 100px;
+}
+
+.coffe__left--title {
+  width: 524px;
+  font-family: Josefin Sans;
+  font-weight: 700;
+  font-size: 58px;
+  leading-trim: NONE;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: white;
+}
+
+.coffe__left--subtitle {
+  width: 506px;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 20px;
+  leading-trim: NONE;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: white;
+  margin-top: 30px;
+}
+
+.coffe__left--btn {
+  width: 148px;
+  height: 61px;
+  border-radius: 5px;
+  padding-top: 16px;
+  padding-right: 35px;
+  padding-bottom: 16px;
+  padding-left: 35px;
+  background-color: #ff4b32;
+  border: none;
+  margin-top: 30px;
+}
